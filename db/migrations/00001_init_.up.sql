@@ -49,5 +49,3 @@ CREATE INDEX idx_transfers_from ON transfers(from_account_id);
 CREATE INDEX idx_transfers_to ON transfers(to_account_id);
 CREATE INDEX idx_transfers_ref ON transfers(reference_number);
 CREATE INDEX idx_mutations_account ON mutations(account_id);
-
-
